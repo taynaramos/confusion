@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Breadcrumb, BreadcrumbItem, Button, Form, FormGroup, Label, Input, Col, Row, FormFeedback } from 'reactstrap'
+import { Breadcrumb, BreadcrumbItem, Button, Form, FormGroup, Label, Input, Col, FormFeedback } from 'reactstrap'
 import { Link } from 'react-router-dom'
 
 class Contact extends Component {
@@ -27,6 +27,7 @@ class Contact extends Component {
         this.handleBlur = this.handleBlur.bind(this);
     }
 
+    // mudança no input, seja digitando ou clicando
     handleInputChange(event) {
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -37,12 +38,21 @@ class Contact extends Component {
         })
     }
 
+    // ao clicar para submeter form
     handleSubmit(event) {
         console.log("Current State is: " + JSON.stringify(this.state))
         alert("Current State is: " + JSON.stringify(this.state))
         event.preventDefault();
     }
 
+    // blur - quando o elemento perde o foco
+    // 2 arrows pq é uma funçao que retorna uma função:
+    // handleChange = function(field) {
+    //     return function(e) {
+    //       // Do something here
+    //       // return ...
+    //     };
+    //   };
     handleBlur = (field) => (evt) => {
         this.setState({
             touched: { ...this.state.touched, [field]: true }
