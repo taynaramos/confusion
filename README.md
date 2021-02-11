@@ -7,4 +7,6 @@ This project is done based on the Front-End Web Development with React course.
 - React library
 - Reactstrap
 - React Router DOM
+- Redux
+- React-redux
 
