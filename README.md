@@ -9,4 +9,4 @@ This project is done based on the Front-End Web Development with React course.
 - React Router DOM
 - Redux
 - React-redux
-
+- React-redux-form
