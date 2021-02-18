@@ -10,6 +10,8 @@ export const addComment = (dishId, rating, author, comment) => ({
         comment: comment
     }
 });
+
+// creating a thunk, a function that returns a function (and not a action as expected)
 export const fetchDishes = () => (dispatch) => {
     dispatch(dishesLoading(true));
 
