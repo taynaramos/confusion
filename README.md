@@ -12,3 +12,4 @@ This project is done based on the Front-End Web Development with React course.
 - React-redux-form
 - Redux thunk
 - Redux logger
+- Cross fetch
