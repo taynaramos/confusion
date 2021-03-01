@@ -13,3 +13,6 @@ This project is done based on the Front-End Web Development with React course.
 - Redux thunk
 - Redux logger
 - Cross fetch
+- React transition group
+- React animation components
+- Prop types
