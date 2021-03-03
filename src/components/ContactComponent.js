@@ -18,8 +18,8 @@ class Contact extends Component {
 
     // ao clicar para submeter form
     handleSubmit(values) {
-        console.log("Current State is: " + JSON.stringify(values))
-        alert("Current State is: " + JSON.stringify(values))
+        // console.log("Current State is: " + JSON.stringify(values))
+        this.props.postFeedback(values.firstname, values.lastname, values.telnum, values.email, values.agree, values.contactType, values.message)
         this.props.resetFeedbackForm()
     }
 
