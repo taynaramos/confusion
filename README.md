@@ -19,7 +19,7 @@ This project is done based on the Front-End Web Development with React course.
 
 ### How to use
 
-YOu can execute the project with [npm](https://docs.npmjs.com/cli/init):
+You can execute the project with [npm](https://docs.npmjs.com/cli/init):
 
 ```bash
 npm install
