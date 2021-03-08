@@ -16,3 +16,17 @@ This project is done based on the Front-End Web Development with React course.
 - React transition group
 - React animation components
 - Prop types
+
+### How to use
+
+YOu can execute the project with [npm](https://docs.npmjs.com/cli/init):
+
+```bash
+npm install
+```
+
+and then
+
+```bash
+npm start
+```
